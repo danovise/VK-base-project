@@ -60,7 +60,7 @@ class MainTabBarVC: UITabBarController {
     }()
     
     override func viewDidLoad() {
-        let controllers: [UIViewController] = [friendsVC, videosVC, groupsVC, newsFeedVC]
+        let controllers: [UIViewController] = [friendsVC, groupsVC, newsFeedVC]
         self.viewControllers = controllers
         
         navigationItem.hidesBackButton = true
